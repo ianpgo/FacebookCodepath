@@ -14,6 +14,21 @@
 		BA49870C1D9463E9003C31DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA49870A1D9463E9003C31DC /* LaunchScreen.storyboard */; };
 		BA4987171D9463E9003C31DC /* FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987161D9463E9003C31DC /* FacebookTests.swift */; };
 		BA4987221D9463E9003C31DC /* FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987211D9463E9003C31DC /* FacebookUITests.swift */; };
+		BA4987311D946BD0003C31DC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987301D946BD0003C31DC /* FeedViewController.swift */; };
+		BA4987331D946BDE003C31DC /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987321D946BDE003C31DC /* RequestsViewController.swift */; };
+		BA4987351D946BE6003C31DC /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987341D946BE6003C31DC /* MessagesViewController.swift */; };
+		BA4987371D946BEF003C31DC /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987361D946BEF003C31DC /* NotificationsViewController.swift */; };
+		BA4987391D946BF6003C31DC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4987381D946BF6003C31DC /* MoreViewController.swift */; };
+		BA49873B1D947478003C31DC /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA49873A1D947478003C31DC /* ThrillistDetailViewController.swift */; };
+		BA57A37A1D9DA2FD00315106 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA57A3791D9DA2FD00315106 /* LoginViewController.swift */; };
+		BA8B70EB1DB6E1EB00988267 /* basetransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B70E91DB6E1EB00988267 /* basetransition.swift */; };
+		BA8B70EC1DB6E1EB00988267 /* fadetransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B70EA1DB6E1EB00988267 /* fadetransition.swift */; };
+		BA8B70F01DB6E46700988267 /* phototransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B70EF1DB6E46700988267 /* phototransition.swift */; };
+		BAA80CF31D947A0B009EB247 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA80CF21D947A0B009EB247 /* StatusViewController.swift */; };
+		BAA80CF51D947A17009EB247 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA80CF41D947A17009EB247 /* PhotoViewController.swift */; };
+		BAA80CF71D947A24009EB247 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA80CF61D947A24009EB247 /* CheckInViewController.swift */; };
+		BACF4F311DB6CC1600FB0BCB /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF4F301DB6CC1600FB0BCB /* Common.swift */; };
+		BACF4F331DB6CF5600FB0BCB /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF4F321DB6CF5600FB0BCB /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		BA49871D1D9463E9003C31DC /* FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4987211D9463E9003C31DC /* FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookUITests.swift; sourceTree = "<group>"; };
 		BA4987231D9463E9003C31DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4987301D946BD0003C31DC /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BA4987321D946BDE003C31DC /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		BA4987341D946BE6003C31DC /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		BA4987361D946BEF003C31DC /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		BA4987381D946BF6003C31DC /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		BA49873A1D947478003C31DC /* ThrillistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistDetailViewController.swift; sourceTree = "<group>"; };
+		BA57A3791D9DA2FD00315106 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA8B70E91DB6E1EB00988267 /* basetransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = basetransition.swift; path = ../../Resources/basetransition.swift; sourceTree = "<group>"; };
+		BA8B70EA1DB6E1EB00988267 /* fadetransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = fadetransition.swift; path = ../../Resources/fadetransition.swift; sourceTree = "<group>"; };
+		BA8B70EF1DB6E46700988267 /* phototransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = phototransition.swift; path = ../phototransition.swift; sourceTree = "<group>"; };
+		BAA80CF21D947A0B009EB247 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		BAA80CF41D947A17009EB247 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		BAA80CF61D947A24009EB247 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		BACF4F301DB6CC1600FB0BCB /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../Resources/Common.swift; sourceTree = "<group>"; };
+		BACF4F321DB6CF5600FB0BCB /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +127,13 @@
 		BA4987001D9463E9003C31DC /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				BA49872F1D946BBA003C31DC /* ViewControllers */,
 				BA4987011D9463E9003C31DC /* AppDelegate.swift */,
 				BA4987031D9463E9003C31DC /* ViewController.swift */,
+				BACF4F301DB6CC1600FB0BCB /* Common.swift */,
+				BA8B70E91DB6E1EB00988267 /* basetransition.swift */,
+				BA8B70EA1DB6E1EB00988267 /* fadetransition.swift */,
+				BA8B70EF1DB6E46700988267 /* phototransition.swift */,
 				BA4987051D9463E9003C31DC /* Main.storyboard */,
 				BA4987081D9463E9003C31DC /* Assets.xcassets */,
 				BA49870A1D9463E9003C31DC /* LaunchScreen.storyboard */,
@@ -123,6 +158,24 @@
 				BA4987231D9463E9003C31DC /* Info.plist */,
 			);
 			path = FacebookUITests;
+			sourceTree = "<group>";
+		};
+		BA49872F1D946BBA003C31DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA4987301D946BD0003C31DC /* FeedViewController.swift */,
+				BA4987321D946BDE003C31DC /* RequestsViewController.swift */,
+				BA4987341D946BE6003C31DC /* MessagesViewController.swift */,
+				BA4987361D946BEF003C31DC /* NotificationsViewController.swift */,
+				BA4987381D946BF6003C31DC /* MoreViewController.swift */,
+				BA49873A1D947478003C31DC /* ThrillistDetailViewController.swift */,
+				BAA80CF21D947A0B009EB247 /* StatusViewController.swift */,
+				BAA80CF41D947A17009EB247 /* PhotoViewController.swift */,
+				BAA80CF61D947A24009EB247 /* CheckInViewController.swift */,
+				BA57A3791D9DA2FD00315106 /* LoginViewController.swift */,
+				BACF4F321DB6CF5600FB0BCB /* PhotoDetailViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +312,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4987391D946BF6003C31DC /* MoreViewController.swift in Sources */,
+				BA4987351D946BE6003C31DC /* MessagesViewController.swift in Sources */,
+				BA8B70F01DB6E46700988267 /* phototransition.swift in Sources */,
 				BA4987041D9463E9003C31DC /* ViewController.swift in Sources */,
+				BA4987311D946BD0003C31DC /* FeedViewController.swift in Sources */,
+				BA4987371D946BEF003C31DC /* NotificationsViewController.swift in Sources */,
+				BACF4F311DB6CC1600FB0BCB /* Common.swift in Sources */,
+				BA4987331D946BDE003C31DC /* RequestsViewController.swift in Sources */,
 				BA4987021D9463E9003C31DC /* AppDelegate.swift in Sources */,
+				BAA80CF31D947A0B009EB247 /* StatusViewController.swift in Sources */,
+				BA49873B1D947478003C31DC /* ThrillistDetailViewController.swift in Sources */,
+				BA8B70EC1DB6E1EB00988267 /* fadetransition.swift in Sources */,
+				BACF4F331DB6CF5600FB0BCB /* PhotoDetailViewController.swift in Sources */,
+				BAA80CF71D947A24009EB247 /* CheckInViewController.swift in Sources */,
+				BA8B70EB1DB6E1EB00988267 /* basetransition.swift in Sources */,
+				BA57A37A1D9DA2FD00315106 /* LoginViewController.swift in Sources */,
+				BAA80CF51D947A17009EB247 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +573,7 @@
 				BA4987281D9463E9003C31DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4987291D9463E9003C31DC /* Build configuration list for PBXNativeTarget "FacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +582,7 @@
 				BA49872B1D9463E9003C31DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA49872C1D9463E9003C31DC /* Build configuration list for PBXNativeTarget "FacebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +591,7 @@
 				BA49872E1D9463E9003C31DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
